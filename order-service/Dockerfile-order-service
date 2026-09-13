@@ -10,7 +10,7 @@ RUN ls -ltr
 
 RUN  mvn package
 
-# RUN ls -ltR
+RUN ls -ltR
 
 CMD ["/bin/sh", "-c", "java -jar target/order-service-0.0.1-SNAPSHOT.jar"]
 
