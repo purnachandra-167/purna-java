@@ -3,9 +3,9 @@ FROM maven:amazoncorretto
 USER root
 WORKDIR /app/java
 
-COPY . .
+#COPY . .
 COPY order-service ./
-
+RUN ls -ltr
 
 
 RUN  mvn package
