@@ -1,5 +1,5 @@
 FROM maven:amazoncorretto
-
+#
 USER root
 WORKDIR /app/java
 
